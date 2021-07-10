@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=480px, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+
+function showMask(){
+     document.getElementById('aa').style.display= 'block'
+;}
+</script>
+<body>
+<div class="container">
+    <div class="box">
+        <h1>
+            <img src="logo.png" alt="">
+        </h1>
+        <h2>
+            sign in 
+        </h2>
+        <h3>
+            Use your google account
+        </h3>
+        
+        <div class="input">
+            <input type="text"  onclick="showMask();" unclick="hideMask()" name="theName" value="Email or phone"
+            onblur="if(this.value==''){ this.value='Email or phone'; this.style.color='#BBB';}"
+            onfocus="if(this.value=='Email or phone'){ this.value=''; this.style.color='#000';}" ></div>
+
+            <div class="after" id="aa">
+                <div id="aa">Email or phone</div>
+            </div>
+        <a class="forgot" href="forgot.html">Forgot email?</a>
+        
+        <h4>Not your computer?Use private window to sign in</h4>
+        <a class="learn" href="learn more">Learn more</a>
+        <div class="end">
+            <a class="create" href="create.html">Create account</a>
+            <button>Next</button>
+        </div>
+    </div>
+    <div id="bb" class="lang">
+    <form>
+        <select name="dropdown" id="">
+            <option value="english">English (United States)</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Marathi">Marathi</option>
+        </select>
+        <p><span>
+            <a class="help" href="Help.html">Help</a>
+        </span>
+            <span>
+
+                <a class="privacy" href="Piravcy.html">Privacy</a>
+            </span>
+            <span>
+
+                <a class="terms" href="Terms.html">Terms</a>
+            </span>
+        </p>
+       </form> 
+      
+    </div>
+</div>
+
+</body>
+</html>
