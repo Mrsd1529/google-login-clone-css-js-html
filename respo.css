@@ -1,0 +1,22 @@
+@media screen  and (max-width:320px){
+
+.container{margin: 0;padding: 0;}
+.box{border: 0px;position:relative;right: 100px;} 
+input{width: 85vw;}
+.forgot{position: relative;left: 1px;}
+h4{font-size: 14px;width: 270px;position: relative;left: 122px;}
+.learn{position: relative;left: 1px;}
+.create{position: relative;left: 1px;}
+button{position: relative;left: 37px;}
+.lang{position: relative;bottom:55px;left: 15px;}
+
+p{position: relative;left:-1px;top: 5px;}
+
+.after{position: relative;left: 120px}
+
+
+
+
+
+
+}
